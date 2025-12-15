@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* LOGIN */
+.login-body {
+  background: linear-gradient(to bottom, #1e90ff, #00bcd4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-box button {
+  padding: 10px;
+  width: 100%;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* HOME */
+.home-body {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1502082553048-f009c37129b9");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  height: 100%;
+  padding: 40px;
+}
+
+.overlay a {
+  color: #00e5ff;
+}
